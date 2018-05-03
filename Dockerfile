@@ -6,10 +6,10 @@ ENV DEBIAN_FRONTEND noninteractive
 # Use https://download.jitsi.org/unstable/ for unstable
 ARG REPOSITORY="https://download.jitsi.org/jitsi/debian"
 
-# Latest stable as of 11/24
-ARG JITSI="1.0.1073-1"
-ARG VIDEOBRIDGE="751-1"
-ARG JICOFO="1.0-267-1"
+# Latest stable as of 2018-05-01
+ARG JITSI="1.0.2740-1"
+ARG VIDEOBRIDGE="1055-1"
+ARG JICOFO="1.0-394-1"
 
 RUN apt-get update -y && \
   apt-get install -y software-properties-common && \
