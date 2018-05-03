@@ -36,8 +36,8 @@ RUN apt-get clean && \
   mkdir /keys && \
   mkdir /recordings
 
-EXPOSE 80 443
-EXPOSE 10000-20000/udp
+EXPOSE 80
+EXPOSE 10000-10010/udp
 
 COPY config /root/samples
 COPY run.sh run.sh
